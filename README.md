@@ -7,13 +7,18 @@
 
 SDK 地址 ：[PandoraBox-SDK-ralink-mt7621_gcc-5.5.0_uClibc-1.0.x.Linux-x86_64.tar.xz](https://downloads.pangubox.com/sdk_for_pear/PandoraBox-SDK-ralink-mt7621_gcc-5.5.0_uClibc-1.0.x.Linux-x86_64.tar.xz)
 
+## Download
+
+最新的编译在 release 里面
+
+https://github.com/WingLim/pandorabox-k2p-package/releases
+
+
 ## frpc
 
 Makefile 来自 [openwrt-frp](https://github.com/kuoruan/openwrt-frp)
 
 建议使用 kuoruan 的 luci 界面 [luci-app-frpc](https://github.com/kuoruan/luci-app-frpc) 
-
-
 
 
 ## V2ray
