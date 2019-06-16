@@ -78,6 +78,7 @@ endef
 
 define Build/Compile
 $(call GoPackage/Build/Compile,-ldflags "-s -w")
+	upx --ultra-brute $$(GO_PKG_BUILD_BIN_DIR)/frpc
 endef
 
 FRP_COMPONENTS:=frpc frps

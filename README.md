@@ -1,9 +1,11 @@
 # pandorabox-packages
 因为我自己的K2P刷了官方的 PandoraBox，不想使用 Lean 大佬的，因为集成了太多东西，想要精简一点，然后再自己安装软件。
 
+使用 UPX 来压缩二进制文件然后再打包成 ipk
+
 SDK 来自 PandoraBox 官方 ：[PandoraBox-SDK-ralink-mt7621_gcc-5.5.0_uClibc-1.0.x.Linux-x86_64.tar.xz](https://downloads.pangubox.com/sdk_for_pear/PandoraBox-SDK-ralink-mt7621_gcc-5.5.0_uClibc-1.0.x.Linux-x86_64.tar.xz)
 
-## frpc & frps
+## frpc
 
 Makefile 来自 [openwrt-frp](https://github.com/kuoruan/openwrt-frp)
 
