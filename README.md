@@ -21,4 +21,8 @@ Makefile 来自 [openwrt-v2ray](<https://github.com/kuoruan/openwrt-v2ray>)
 
 PandoraBox 的官方源是有的，但是太大了，需要 9MB 的空间才能安装
 
+我编译的版本是内置 jsonem ，而不是 v2ctl 的，所以体积只有 3.45MB 
+
+没有对其他模块进行精简
+
 需要注意的是，使用 v2ray 之前安装 luci-app-ssr-plus 来管理
